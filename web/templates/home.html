@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matches</title>
+</head>
+<body>
+
 <h2>Add Match</h2>
 
 <form method="POST">
@@ -6,6 +13,7 @@
     <input type="text" name="home_team" placeholder="Home team">
     <input type="text" name="away_team" placeholder="Away team">
     <input type="number" step="0.01" name="odds" placeholder="Odds">
+    <input type="datetime-local" name="match_date">
 
     <button type="submit">Add</button>
 </form>
@@ -18,6 +26,10 @@
     {% for match in matches %}
         <li>
             {{ match.home_team }} vs {{ match.away_team }} - Odds: {{ match.odds }}
+            <a href="{% url 'delete_match' match.id %}">❌</a>
         </li>
     {% endfor %}
 </ul>
+
+</body>
+</html>
