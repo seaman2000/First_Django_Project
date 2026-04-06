@@ -1,4 +1,4 @@
-# ⚽ Match Tracker (Django Project)
+# ⚽ Match Tracker (Django)
 
 This is my first project built with **Django**.  
 It is a simple web application for tracking football matches and their odds.
