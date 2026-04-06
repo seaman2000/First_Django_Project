@@ -16,15 +16,6 @@ The main goal of this project is to practice Django fundamentals such as models,
 
 ---
 
-## 🛠️ Tech Stack
-
-- Python 3.12  
-- Django  
-- HTML / CSS  
-- SQLite (default database)
-
----
-
 ## ⚙️ Features
 
 - ➕ Add a new match  
